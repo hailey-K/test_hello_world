@@ -1,0 +1,10 @@
+# getting bse image ubuntu
+FROM ubuntu 
+
+MAINTAINER hailey 
+
+COPY testHelloWorld.html .
+
+EXPOSE 80
+
+CMD ["html","testHelloWorld.html"]
