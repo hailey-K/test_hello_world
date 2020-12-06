@@ -24,3 +24,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: Docker build
         run: docker build . -t git_test
+        
+      - name: Docker push
+        run: docker push git_test
