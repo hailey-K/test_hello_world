@@ -26,4 +26,4 @@ jobs:
         run: docker build . -t git_test
         
       - name: Docker push
-        run: docker push git_test
+        run: docker push hkim58076/git_test
