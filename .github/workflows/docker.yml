@@ -32,4 +32,4 @@ jobs:
           docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
       # Runs a single command using the runners shell
       - name: Docker build
-        run: docker build ./GitTest -t 
+        run: docker build . -t 
